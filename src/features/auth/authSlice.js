@@ -5,12 +5,6 @@ const initialState = {
   user: null,
 };
 
-export const authSlice = createSlice({
-  name: "auth",
-  initialState,
-  reducers: {},
-});
-
 export const register = createAsyncThunk("auth/register", async (user) => {
   try {
     return await authService.register(user);
@@ -20,3 +14,8 @@ export const register = createAsyncThunk("auth/register", async (user) => {
 });
 
 export default authSlice.reducer;
+export const authSlice = createSlice({
+  name: "auth",
+  initialState,
+  reducers: {},
+});
