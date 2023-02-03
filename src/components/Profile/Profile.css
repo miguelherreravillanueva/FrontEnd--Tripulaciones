@@ -1,0 +1,65 @@
+.profile{
+    height: 100%;
+}
+
+.profile-name {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: "Semibold";
+    font-size: 16px;
+    Line-height: 24px;
+    Vertical-align: Top;
+    color: #3D4750;
+   
+    margin-left: 80px;
+    
+}
+
+.profile-view {
+    display: flex;
+    flex: column;
+    margin-top: 1em;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.userimg{
+    max-width: 200px;
+    margin: 15px;
+    margin-left: 40px;
+}
+
+.profile-info {
+    display: flex;
+    gap: 5px;
+   
+}
+.button {
+    background: #F2F5F7;
+    border: 1px solid #A1AEB7;
+    border-radius: 6px;
+}
+.buttonedit{
+    background-color: rgb(239, 231, 231);
+    color: black;
+    margin-bottom: 20px;
+
+}
+.member{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 100%;
+}
+.phone-details{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 85%;
+}
+.email{
+    display: inline-flex;
+    align-items: center;
+    margin: 15px 20px 0 0;
+    width: 85%;
+}

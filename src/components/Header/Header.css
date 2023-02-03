@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    width: 100%;
+    background-color: #3D5656;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1.5em;
+    gap: 50px;
+    width: 85%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FAFAFA;
+}

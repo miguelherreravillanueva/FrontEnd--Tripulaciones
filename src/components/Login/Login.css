@@ -1,0 +1,33 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.login-h2 {
+    Font-family: "P22 Mackinac Pro";
+    Font-style: Bold;
+    Font-size: 20px;
+    Line-height: 28px;
+    width: 160px;
+    height: 56px;
+    Top: 148px;
+    Left: 115px;
+    Vertical-align: Top;
+    color: #3D5656;
+}
+
+.sub-login {
+    Font-family: "Proxima Nova";
+    Font-style: "Regular";
+    Font-size: 12px;
+    Line-height: 16px;
+    Vertical-align: Top;
+    color: #A1AEB7;
+    width: 183px;
+    height: 16px;
+    Top: 219px;
+    Left: 104px;
+}

@@ -1,0 +1,49 @@
+.category-box{
+    width: 80px;
+    height: 80px;
+    border-radius: 800px;
+    background-color: #3D4750;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spandbox{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-categories{
+    display: flex;
+    flex-direction: column;
+}
+
+.all-boxes{
+    display: flex;
+    padding: 40px;
+}
+
+.span-categories{
+    margin-top: 50px;
+    padding: 0px, 10px;
+}
+
+.boxes-container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.boxes-container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}

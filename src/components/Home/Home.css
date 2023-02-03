@@ -1,0 +1,37 @@
+html{
+    background-color: white;
+    
+}
+.iconos-home{
+    margin-top: 16vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+span{
+    text-align: left;
+    margin: 2vh;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+p{
+    text-align: center;
+    margin: 3vh;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+svg{
+    padding: 15px;
+    border-radius: 50px;
+    color:#FED049;
+    background-color: #3D4750;
+}
+a{
+    all: unset;
+}

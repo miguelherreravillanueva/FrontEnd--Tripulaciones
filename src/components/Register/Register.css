@@ -1,0 +1,48 @@
+.Padre-register{
+    display: flex;
+    flex-direction: column;
+}
+.header-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D5656;
+    height: 8vh;
+    font-weight: 550;
+    color: white;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F5F7;
+    padding: 5%;
+}
+input{
+    margin: 5px;
+    padding: 6px;
+    width: 85%;
+    border: 0px;
+    background-color: #F2F5F7;
+    border-bottom: 1px solid black;
+}
+label{
+    display: flex;
+    margin: 0.5rem 0 0 1.5rem;
+    margin-top: 10px;
+}
+.name-surname{
+    display: flex;
+    padding-left:6%;
+    padding-right: 6%;
+}
+.name{
+    width:40%
+};
+.surname{
+    width:60%
+}
+button{
+    margin: 8px;
+    padding: 5px;
+}
+

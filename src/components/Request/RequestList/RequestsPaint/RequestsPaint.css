@@ -1,0 +1,62 @@
+.requestlist-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100px;
+}
+
+.requestsmap-box{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    border-bottom: solid #A1AEB7 1px;
+    padding-top: 30px;
+}
+
+.request-details{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.address-box{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.date-box{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.title-request{
+    font-family: "Proxima Nova";
+    font-style: bold;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3D4750;
+}
+
+.address-request{
+    text-align: center;
+}
+
+.requests-pics{
+    max-width: 240px;
+}
+
+.prepaint{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.body-request{
+    font-size: 14px;
+    font-weight: bold;
+}
